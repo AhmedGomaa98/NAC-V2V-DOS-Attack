@@ -33,6 +33,7 @@ Our benchmarks prove that you can achieve high diagnostic depth without causing 
 
 Below is the roadmap of the files included in this repository to ensure full reproducibility:
 
+```text
 ├── src/          # Python Core Scripts: Includes 'run_benchmarking_comparison.py' and 'plot_confusion_matrices.py' for model training and evaluation.
 ├── dataset/      # SUMO Simulation & Map Files: Contains the urban road network ('capital.net.xml'), traffic flows ('capital.rou.xml'), and environment config ('capital.sumocfg') for the NAC Iconic Tower scenario.
 └── results/      # Trained Models & Matrices: Houses the finalized, pre-trained model weights ('vanet_phase1_detector.pki' and 'vanet_phase2_classifier.pki') alongside generated confusion matrix plots.
